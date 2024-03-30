@@ -15,11 +15,11 @@ const config = {
         async session({session, token}) {
             if(session) {
                 session = Object.assign({}, session, {access_token: token.access_token,id_token:token.id_token})
-                console.log(session);
             }
             return session
         }
     },
+    secret:process.env.AUTH_SECRET,
     ...authConfig
 } satisfies NextAuthConfig
 
