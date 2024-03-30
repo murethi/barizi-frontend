@@ -9,7 +9,7 @@ const SignOut = () => {
             "use server"
             await signOut();
         }}>
-            <Button type={"submit"} variant={"link"} className={"flex items-center text-sm"} href={"/"}>
+            <Button type={"submit"} variant={"link"} className={"flex items-center text-sm"}>
                 <FaPowerOff className={"w-5 h-5 mr-3"}/> Logout
             </Button>
         </form>
