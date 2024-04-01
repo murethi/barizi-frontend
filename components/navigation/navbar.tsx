@@ -2,7 +2,6 @@ import {auth} from "@/auth";
 import Image from "next/image";
 import {UserIcon} from "@/components/navigation/user-icon";
 import Link from "next/link";
-import {FiUser} from "react-icons/fi";
 import {ClipboardIcon} from "@radix-ui/react-icons";
 
 export const Navbar =async ()=>{
@@ -19,11 +18,8 @@ export const Navbar =async ()=>{
             </div>
             <ul className={"text-sm text-zinc-600 flex space-x-3 "}>
                 <li>
-                    <Link className={"hover:underline hover:text-blue-600 flex items-center space-x-1"} href={"/profile"}><ClipboardIcon className={"w-4 -h-4"}/> <span>Products</span></Link>
+                    <Link className={"hover:underline hover:text-blue-600 flex items-center space-x-1"} href={"/products"}><ClipboardIcon className={"w-4 -h-4"}/> <span>Products</span></Link>
 
-                </li>
-                <li>
-                    <Link className={"hover:underline hover:text-blue-600 flex items-center space-x-1"} href={"/profile"}><FiUser className={"w-4 -h-4"}/> <span>Profile</span></Link>
                 </li>
             </ul>
             <div>
