@@ -10,6 +10,24 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## About this project
+#### Overview
+This is a demo project designed for Barizi Communications to demonstrate my
+frontend design skills. 
+
+#### Security
+This application is secured by implementing openid connect using Google as the oauth provider. To achieve this
+I chose to use authjs a complete open-source authentication solution for web applications.
+
+#### Functionality
+The following functionalities have beem included:
+* Login
+* Create Product
+* List products
+* Update product
+* Update Inventory
+
+
 ## Screenshots
 
 ### Login Page
