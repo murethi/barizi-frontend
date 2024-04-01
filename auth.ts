@@ -19,7 +19,6 @@ const config = {
             return session
         }
     },
-    secret:process.env.AUTH_SECRET,
     ...authConfig
 } satisfies NextAuthConfig
 
