@@ -44,13 +44,6 @@ export const ProductActions = ({product}: { product:Product }) => {
                     <Boxes className="h-4 w-4 ml-auto" />
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem
-                    className="text-rose-500 space-x-2 px-3 py-2 text-sm cursor-pointer"
-
-                >
-                    Delete Product (Permanent)
-                    <Trash className="h-4 w-4 ml-auto" />
-                </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
     )
