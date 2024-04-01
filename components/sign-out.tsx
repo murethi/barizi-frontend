@@ -9,8 +9,8 @@ const SignOut = () => {
             "use server"
             await signOut();
         }}>
-            <Button type={"submit"} variant={"link"} className={"flex items-center text-sm"}>
-                <FaPowerOff className={"w-5 h-5 mr-3"}/> Logout
+            <Button type={"submit"} variant={"link"} className={"flex items-center text-xs"}>
+                <FaPowerOff className={"w-4 h-4 mr-2"}/> Logout
             </Button>
         </form>
     );
