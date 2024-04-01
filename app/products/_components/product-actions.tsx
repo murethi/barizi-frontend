@@ -9,11 +9,10 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import {Button} from "@/components/ui/button";
-import {Boxes, Edit, MinusCircle, MoreHorizontal, Trash} from "lucide-react";
+import {Boxes, Edit, MoreHorizontal, Trash} from "lucide-react";
 import {Product} from "@/types";
 import Link from "next/link";
 import {useModal} from "@/hooks/use-modal-store";
-import {PlusCircledIcon} from "@radix-ui/react-icons";
 
 
 export const ProductActions = ({product}: { product:Product }) => {
