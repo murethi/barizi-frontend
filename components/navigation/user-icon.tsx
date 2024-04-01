@@ -1,14 +1,14 @@
 import React from 'react';
 import {
     DropdownMenu,
-    DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem,
+    DropdownMenuContent,
+    DropdownMenuGroup,
+    DropdownMenuItem,
     DropdownMenuLabel,
     DropdownMenuSeparator,
     DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar";
-import Link from "next/link";
-import {FaPowerOff} from "react-icons/fa";
 import {auth} from "@/auth";
 import SignOut from "@/components/sign-out";
 
