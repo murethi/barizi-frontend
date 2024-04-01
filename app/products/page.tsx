@@ -4,7 +4,8 @@ import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/compo
 import {Metadata} from "next";
 import {listProducts} from "@/actions/products";
 import {Product} from "@/types";
-import CreateButton from "@/app/products/create-button";
+import React from "react";
+import {CreateProductButton} from "@/app/products/_components/create-product-button";
 
 export const metadata: Metadata = {
     title: 'Products',
@@ -26,7 +27,7 @@ export default async function ProductPage() {
                             <CardDescription>Manage or create products.</CardDescription>
                         </div>
                         <div >
-                            <CreateButton/>
+                            <CreateProductButton/>
                         </div>
                     </div>
                 </CardHeader>
